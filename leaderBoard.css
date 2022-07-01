@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush');
+
+h1 {
+  text-align: center;
+  color: #006400;
+}
+
+table {
+  width: 100%;
+  padding: 5px;
+  margin: auto;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  background: repeating-linear-gradient(-180deg, gray, transparent 10px)
+}
+
+td:nth-child(4n - 3) {
+  padding-left: 10px;
+}
+
+thead {
+  background: #99ddbb;
+  color: #fff;
+}
+
+tr {
+  font-size: 1.6vw;
+  font-weight: 700;
+}
+
+td {
+  padding: 1rem 0;
+  box-sizing: border-box;
+}
+
+
+button {
+  background: none;
+  border: none;
+  color: #ffff00;
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-family: 'Caveat Brush', cursive;
+  padding: 0;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+tbody {
+  vertical-align: middle;
+}
+
+tbody tr {
+  width: 100%;
+  vertical-align: middle;
+}
+
+tbody tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+tbody tr td {
+  padding: 5px 0;
+  box-sizing: border-box;
+}
+
+tbody tr td .camperProfile {
+  height: auto;
+  position: relative;
+}
+
+tbody tr td .camperImg {
+  width: 75px;
+  margin: 5px 20px 5px 0;
+  display: inline;
+}
+
+tbody tr td .camperName {
+  display: inline;
+  font-size: 1.25rem;
+  position: absolute;
+  bottom: 17.5%;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+
+    font-size: 18px;
+
+
+  }
+
+  table {
+    width: 80%;
+  }
+}
